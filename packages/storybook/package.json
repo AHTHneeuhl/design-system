@@ -1,0 +1,9 @@
+{
+  "name": "@ahthneeuhl-ds/storybook",
+  "packageManager": "yarn@3.6.3",
+  "private": true,
+  "dependencies": {
+    "@ahthneeuhl-ds/foundation": "workspace:^",
+    "@ahthneeuhl-ds/react": "workspace:^"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@ahthneeuhl-ds/react",
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "@ahthneeuhl-ds/foundation": "workspace:^"
+  }
+}
