@@ -5,5 +5,8 @@
   "dependencies": {
     "@ahthneeuhl-ds/foundation": "workspace:^",
     "@ahthneeuhl-ds/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5"
   }
 }
