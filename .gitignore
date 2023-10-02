@@ -9,3 +9,104 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+
+# Ignore Node.js files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Ignore build output and distribution directories for each package/application
+/packages/*/build/
+/packages/*/dist/
+
+# Ignore environment-specific files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore logs and generated files
+logs/
+*.log
+*.log.*
+*.log-*
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.suo
+*.cache
+.vscode/
+# Visual Studio Code workspace files
+.code-workspace
+
+# Ignore macOS Finder metadata
+._*
+
+# Ignore editor-specific files
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+*.idea
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.suo
+*.cache
+.vscode/
+# Visual Studio Code workspace files
+.code-workspace
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Ignore backup files
+*~
+*.*~
+*.bak
+
+# Ignore coverage output
+coverage/
+
+# Ignore build output
+/build/
+
+# Ignore test snapshot directories
+__snapshots__/
+
+# Ignore TypeScript files compilation output
+*.tsbuildinfo
+
+# Ignore eslint cache
+.eslintcache
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore local development config files
+/config/local.js
+
+# Ignore project-specific logs and runtime data
+/logs/
+/dist/
