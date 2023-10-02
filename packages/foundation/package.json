@@ -2,6 +2,7 @@
   "name": "@ahthneeuhl-ds/foundation",
   "packageManager": "yarn@3.6.3",
   "devDependencies": {
+    "style-dictionary": "^3.8.0",
     "typescript": "4.9.5"
   }
 }
